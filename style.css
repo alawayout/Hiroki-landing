@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+  }
+
+body {
+  background-image: url('https://kartinkin.net/pics/uploads/posts/2022-08/1661431522_14-kartinkin-net-p-fon-dlya-saita-besshovnii-temnii-krasivo-15.jpg');
+    font-family: Trebuchet MS, Helvetica;
+  }
+
+/* Заоголовок сайта */
+a {
+    color: unset;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color:#363636;
+  }
+  
+  header .logo {
+    color:wheat;
+  }
+  
+  header .logo span {
+    font-size:3.2ex;
+    margin-left: 40px;
+  }
+  
+    .logo {
+      float: left;
+    }
+  
+    .about {
+      float: right;
+      width: 67%;
+    }
+  
+  @media (max-width: 700px) {
+    .logo {
+      width: 100%;
+    }
+  
+    .about {
+      width: 100%;
+    }
+  }
+  
+  .about {
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .about > a {color: wheat}
+  
+  .about > a {margin-right: 7%}
+
+  /* Главный блок на сайте */
+
+.high {
+    width: 100%;
+    background-image: url(https://static.wixstatic.com/media/33fa1b_35fad532e922492399a3e2a439419e49~mv2_d_2048_1365_s_2.jpg/v1/fill/w_2500,h_1666,al_c/33fa1b_35fad532e922492399a3e2a439419e49~mv2_d_2048_1365_s_2.jpg);
+    background-blend-mode: multiply;
+    background-color: #8e8e8e;
+    background-size: cover;
+    text-align: center;
+    color:wheat;
+  }
+  
+    .high {
+      font-size: 3em;
+      height: 1000px;
+    }
+  
+    .high {
+      font-size: 2em;
+      height: 930px;
+    }
+  
+    .high h1 {
+    padding-top: 20%;
+  }
+  
+  /* Блок с шефом */
+
+.main {
+    width: 100%;
+    background-image: url(https://avtwo.ru/wp-content/uploads/2020/02/A210763B-FED9-4839-961D-B1A8680B88C2.jpeg);
+    background-blend-mode: multiply;
+    background-color: #c8c8c8;
+    background-size: cover;
+    background-position: unset, left;
+    box-sizing: border-box;
+}
+
+.main {
+    float: left;
+    color: wheat;
+    font-size: 1.3em;
+    
+  }
+  
+.main {
+      padding: 276px;
+}
+  
+  .main h2 {
+    font-size: 3em;
+}
+
+.intro {
+    display: inline-block;
+    transform: translate(-2em, -4em);
+    padding-right: 900px;
+}
+
+.text {
+    padding-right: 0px;
+    display: inline-block;
+    transform: translate(45em, -17em);
+}
+
+  .main p {color: #f0f0f0}
+
+  /* Блок с интерьером ресторана */
+
+.container_slider_css {
+  margin:50px auto;
+  width:1620px;
+  height:930px;
+  overflow:hidden;
+  position:relative;
+  overflow: hidden;
+}
+
+.container_slider_css {
+  z-index: 0;
+}
+
+.photo_slider_css{
+  position:absolute;
+  animation:round 15s infinite;
+  opacity:0;
+  width:100%
+}
+
+  @keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:2s}
+
+/* Блок с бронироанием столика */
+
+* {
+  box-sizing: border-box;
+}
+
+.booking_form {
+  max-width: 400px;
+  margin: 4rem auto;
+}
+
+p1 {
+  font-family: 'Roboto Condensed';
+  font-size: 32px;
+    color: wheat;
+  padding-bottom: 30px;
+}
+
+.booking_form .input_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input[type=text] {
+  height: 30px;
+  border: 1px solid #f1f1f1;
+  padding: 0 13px;
+  font-family: 'Open Sans';
+  color: #363636;
+  font-size: 14px;
+}
+
+.booking_form .input_contact input[type=text] {
+  width: 190px;
+  margin-bottom: 15px;
+}
+
+.booking_form .input_label input[type=text] {
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.booking_form .input_label label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_form .input_label span {
+  font-family: 'Open Sans';
+  color: wheat;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.booking_form .submit_button {
+  display: flex;
+}
+
+.booking_form input[type=submit] {
+  width: 440px;
+  height: 45px;
+  background: #607D8B;
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  cursor: pointer;
+}
+
+/* Блок с картой  */
+
+p2 {
+  font-family: 'Roboto Condensed';
+  font-size: 32px;
+    color: wheat;
+  padding-bottom: 30px;
+}
+
+.where {
+  text-align: center;
+}
+
+.map {
+  transform: translate(21em, 0em);
+}
+
+
+
+
+      
+      
+      
+
